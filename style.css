@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: rgb(0, 53, 87); /* Page background color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 50px; /* Top/Bottom: 10px, Left/Right: 50px */
+  background: rgb(91, 6, 107); /* Header line color */
+  color: white;
+  box-sizing: border-box; /* Ensures padding doesn't affect layout */
+}
+
+.title {
+  font-style: italic;
+  font-size: 24px;
+}
+
+.links a {
+  color: white;
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
